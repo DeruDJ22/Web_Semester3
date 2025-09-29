@@ -12,6 +12,7 @@
       <div
         class="container mx-auto px-4 flex flex-wrap items-center justify-between py-4"
       >
+        <!-- Logo -->
         <div class="flex items-center gap-2">
           <img src="./vendor/img/icon.png" alt="Logo" class="w-8 h-8" />
           <div class="leading-tight">
@@ -21,6 +22,8 @@
             </div>
           </div>
         </div>
+
+        <!-- Nav Menu -->
         <div class="hidden md:flex space-x-8">
           <a
             href="index.html"
@@ -28,13 +31,13 @@
             >Home</a
           >
           <a
-            href="#"
-            class="active: text-orange-500 hover:text-orange-500 font-medium transition duration-200"
+            href="about.html"
+            class="text-gray-700 hover:text-orange-500 font-medium transition duration-200"
             >About</a
           >
           <a
-            href="downlaod.html"
-            class="text-gray-700 hover:text-orange-500 font-medium transition duration-200"
+            href="#"
+            class="text-orange-500 font-semibold transition duration-200"
             >Download App</a
           >
           <a
@@ -55,46 +58,60 @@
         </div>
       </div>
     </nav>
+
+    <!-- Hero Section -->
     <section class="container mx-auto px-6 md:px-12 py-20">
       <div
         class="flex flex-col md:flex-row items-center justify-between gap-12"
       >
-        <!-- Gambar di kiri -->
-        <div class="md:w-1/2 flex justify-center">
-          <img
-            src="https://www.tomoro-coffee.id/img/about1.71f95995.png"
-            alt="Cup Mockup"
-            class="w-72 md:w-[22rem] lg:w-[28rem]"
-          />
+        <!-- Left Content -->
+        <div class="md:w-1/2 text-center md:text-left space-y-6">
+          <!-- Judul -->
+          <h1
+            class="text-3xl md:text-4xl font-extrabold text-gray-900 uppercase"
+          >
+            DOWNLOAD NOW
+          </h1>
+          <!-- Sub Judul -->
+          <p class="text-gray-700 text-2xl uppercase">
+            Download app to get new member rewards
+          </p>
+
+          <!-- App Store & Play Store -->
+          <div class="flex justify-center md:justify-start gap-4">
+            <a href="#">
+              <img
+                src="./vendor/img/appstrore.png"
+                alt="App Store"
+                class="h-12 md:h-14"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="./vendor/img/Google_Play_Store_badge_EN.svg.webp"
+                alt="Google Play"
+                class="h-12 md:h-14"
+              />
+            </a>
+          </div>
+
+          <!-- QR Code -->
+          <div class="pt-4">
+            <img
+              src="./vendor/img/frame.png"
+              alt="QR Code"
+              class="w-24 md:w-28 mx-auto md:mx-0"
+            />
+          </div>
         </div>
 
-        <!-- Teks di kanan -->
-        <div class="md:w-1/2 text-center md:text-left space-y-6">
-          <h2
-            class="text-2xl md:text-5xl font-extrabold text-gray-900 uppercase"
-          >
-            OUR STORY
-          </h2>
-          <p class="text-gray-700 text-2xl leading-relaxed">
-            The founder of TOMORO has travelled across the world for years and
-            has been to over 30 countries including Southeast Asia, South Asia,
-            the Middle East, North Africa, and the Americas. This enabled him to
-            deeply feel people’s passion for coffee culture from different
-            countries, races, and occupations.
-          </p>
-          <p class="text-gray-700 text-2xl leading-relaxed">
-            The founder strives to pursue the ultimate passion for coffee and
-            quality living by creating unique coffee humanities for TOMORO,
-            ultimately introducing the ‘coffee culture’ to every corner of the
-            world, and letting every customer enjoy a worthy cup of good coffee.
-          </p>
-          <p class="text-gray-700 text-2xl leading-relaxed">
-            TOMORO refers to “tomorrow“ and it means “embrace the goodness and
-            yearn for tomorrow”. This is the original aspiration of TOMORO,
-            strive to make every good cup of coffee with heart and encourage
-            everyone to follow their heart bravely, feel the life with heart
-            while yearning for tomorrow.
-          </p>
+        <!-- Right Image -->
+        <div class="md:w-1/2 flex justify-center">
+          <img
+            src="https://static.tomoro-coffee.id/frontEnd/h5App/static/home_load1_250627.png"
+            alt="Cup Mockup"
+            class="w-80 md:w-[32rem] lg:w-[40rem]"
+          />
         </div>
       </div>
     </section>
